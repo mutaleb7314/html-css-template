@@ -3,3 +3,35 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container {
+    margin: 60px 60px;
+    height: 100vh;
+}
+
+.container header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f7f7f7;
+}
+
+.logo h1 {
+    color: lightgray;
+}
+
+.menu ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 10px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.menu ul li a:hover {
+    color: blue;
+    transition: 0.3s ease-in-out;
+}
